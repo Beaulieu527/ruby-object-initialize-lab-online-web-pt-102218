@@ -8,10 +8,10 @@ class Dog
   attr_accessor :name
 
   def breed=(breed)
-    if @breed = breed
-      puts breed
-    else
+    if @breed = 0
       puts "Mutt"
+    else
+      puts breed
     end
   end
 
