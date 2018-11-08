@@ -8,7 +8,7 @@ class Dog
   attr_accessor :name
 
   def breed=(breed)
-    if @breed == breed
+     @breed || = "Mutt"
       puts breed
     else
       puts "Mutt"
