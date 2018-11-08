@@ -6,13 +6,6 @@ class Dog
   end
 
   attr_accessor :name
-
-  def breed=(breed)
-     @breed || = "Mutt"
-  end
-
-  def breed
-    @breed
-  end
+  attr_accessor :breed
 
 end
