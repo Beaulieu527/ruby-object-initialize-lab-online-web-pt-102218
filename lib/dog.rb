@@ -9,10 +9,6 @@ class Dog
 
   def breed=(breed)
      @breed || = "Mutt"
-      puts breed
-    else
-      puts "Mutt"
-    end
   end
 
   def breed
